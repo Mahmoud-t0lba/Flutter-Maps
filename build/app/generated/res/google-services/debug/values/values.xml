@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">761944901988-o824ej5k8uvn5gtiq11f9aqd92las7fl.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">761944901988</string>
+    <string name="google_api_key" translatable="false">AIzaSyA077r_0ui2X5zrz2G7JawHClwLR8xSLXM</string>
+    <string name="google_app_id" translatable="false">1:761944901988:android:7db1ecc4e6cd449b7e1271</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyA077r_0ui2X5zrz2G7JawHClwLR8xSLXM</string>
+    <string name="google_storage_bucket" translatable="false">flutter-maps-5002e.appspot.com</string>
+    <string name="project_id" translatable="false">flutter-maps-5002e</string>
+</resources>

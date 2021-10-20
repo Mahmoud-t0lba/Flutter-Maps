@@ -1,0 +1,292 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.flutter_maps"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="20"
+9        android:targetSdkVersion="30" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->/Users/tolba/StudioProjects/flutter_maps/android/app/src/debug/AndroidManifest.xml:6:5-66
+14-->/Users/tolba/StudioProjects/flutter_maps/android/app/src/debug/AndroidManifest.xml:6:22-64
+15    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+15-->/Users/tolba/StudioProjects/flutter_maps/android/app/src/main/AndroidManifest.xml:4:5-81
+15-->/Users/tolba/StudioProjects/flutter_maps/android/app/src/main/AndroidManifest.xml:4:22-78
+16    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+16-->/Users/tolba/StudioProjects/flutter_maps/android/app/src/main/AndroidManifest.xml:5:5-79
+16-->/Users/tolba/StudioProjects/flutter_maps/android/app/src/main/AndroidManifest.xml:5:22-76
+17    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" />
+17-->/Users/tolba/StudioProjects/flutter_maps/android/app/src/main/AndroidManifest.xml:6:5-77
+17-->/Users/tolba/StudioProjects/flutter_maps/android/app/src/main/AndroidManifest.xml:6:22-74
+18
+19    <queries>
+19-->/Users/tolba/StudioProjects/flutter_maps/android/app/src/main/AndroidManifest.xml:9:5-15:11
+20
+21        <!-- If your app opens https URLs -->
+22        <intent>
+22-->/Users/tolba/StudioProjects/flutter_maps/android/app/src/main/AndroidManifest.xml:11:3-14:12
+23            <action android:name="android.intent.action.VIEW" />
+23-->/Users/tolba/StudioProjects/flutter_maps/android/app/src/main/AndroidManifest.xml:12:5-57
+23-->/Users/tolba/StudioProjects/flutter_maps/android/app/src/main/AndroidManifest.xml:12:13-54
+24
+25            <data android:scheme="https" />
+25-->/Users/tolba/StudioProjects/flutter_maps/android/app/src/main/AndroidManifest.xml:13:5-36
+25-->/Users/tolba/StudioProjects/flutter_maps/android/app/src/main/AndroidManifest.xml:13:11-33
+26        </intent>
+27    </queries>
+28
+29    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+29-->[com.google.firebase:firebase-auth:21.0.1] /Users/tolba/.gradle/caches/transforms-2/files-2.1/df9660c93ac484df309b6870bdb79bb4/jetified-firebase-auth-21.0.1/AndroidManifest.xml:24:5-79
+29-->[com.google.firebase:firebase-auth:21.0.1] /Users/tolba/.gradle/caches/transforms-2/files-2.1/df9660c93ac484df309b6870bdb79bb4/jetified-firebase-auth-21.0.1/AndroidManifest.xml:24:22-76
+30
+31    <uses-feature
+31-->[com.google.android.gms:play-services-maps:17.0.0] /Users/tolba/.gradle/caches/transforms-2/files-2.1/1605a598ba6ad662cecf47bf1b7c4cee/jetified-play-services-maps-17.0.0/AndroidManifest.xml:26:5-28:35
+32        android:glEsVersion="0x00020000"
+32-->[com.google.android.gms:play-services-maps:17.0.0] /Users/tolba/.gradle/caches/transforms-2/files-2.1/1605a598ba6ad662cecf47bf1b7c4cee/jetified-play-services-maps-17.0.0/AndroidManifest.xml:27:9-41
+33        android:required="true" />
+33-->[com.google.android.gms:play-services-maps:17.0.0] /Users/tolba/.gradle/caches/transforms-2/files-2.1/1605a598ba6ad662cecf47bf1b7c4cee/jetified-play-services-maps-17.0.0/AndroidManifest.xml:28:9-32
+34
+35    <application
+35-->/Users/tolba/StudioProjects/flutter_maps/android/app/src/main/AndroidManifest.xml:17:4-59:19
+36        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+36-->[androidx.core:core:1.1.0] /Users/tolba/.gradle/caches/transforms-2/files-2.1/f858def9f026e4920eaea989b32f0732/core-1.1.0/AndroidManifest.xml:24:18-86
+37        android:debuggable="true"
+38        android:icon="@mipmap/ic_launcher"
+38-->/Users/tolba/StudioProjects/flutter_maps/android/app/src/main/AndroidManifest.xml:19:9-43
+39        android:label="flutter_maps" >
+39-->/Users/tolba/StudioProjects/flutter_maps/android/app/src/main/AndroidManifest.xml:18:9-37
+40        <meta-data
+40-->/Users/tolba/StudioProjects/flutter_maps/android/app/src/main/AndroidManifest.xml:21:10-22:73
+41            android:name="com.google.android.geo.API_KEY"
+41-->/Users/tolba/StudioProjects/flutter_maps/android/app/src/main/AndroidManifest.xml:21:21-66
+42            android:value="AIzaSyCVuAuH9jTNXGtrSVHNAI-p0y9Fnv1knh4" />
+42-->/Users/tolba/StudioProjects/flutter_maps/android/app/src/main/AndroidManifest.xml:22:16-71
+43
+44        <activity
+44-->/Users/tolba/StudioProjects/flutter_maps/android/app/src/main/AndroidManifest.xml:25:9-53:20
+45            android:name="com.example.flutter_maps.MainActivity"
+45-->/Users/tolba/StudioProjects/flutter_maps/android/app/src/main/AndroidManifest.xml:26:13-41
+46            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+46-->/Users/tolba/StudioProjects/flutter_maps/android/app/src/main/AndroidManifest.xml:29:13-163
+47            android:hardwareAccelerated="true"
+47-->/Users/tolba/StudioProjects/flutter_maps/android/app/src/main/AndroidManifest.xml:30:13-47
+48            android:launchMode="singleTop"
+48-->/Users/tolba/StudioProjects/flutter_maps/android/app/src/main/AndroidManifest.xml:27:13-43
+49            android:theme="@style/LaunchTheme"
+49-->/Users/tolba/StudioProjects/flutter_maps/android/app/src/main/AndroidManifest.xml:28:13-47
+50            android:windowSoftInputMode="adjustResize" >
+50-->/Users/tolba/StudioProjects/flutter_maps/android/app/src/main/AndroidManifest.xml:31:13-55
+51
+52            <!--
+53                 Specifies an Android theme to apply to this Activity as soon as
+54                 the Android process has started. This theme is visible to the user
+55                 while the Flutter UI initializes. After that, this theme continues
+56                 to determine the Window background behind the Flutter UI.
+57            -->
+58            <meta-data
+58-->/Users/tolba/StudioProjects/flutter_maps/android/app/src/main/AndroidManifest.xml:36:13-39:17
+59                android:name="io.flutter.embedding.android.NormalTheme"
+59-->/Users/tolba/StudioProjects/flutter_maps/android/app/src/main/AndroidManifest.xml:37:15-70
+60                android:resource="@style/NormalTheme" />
+60-->/Users/tolba/StudioProjects/flutter_maps/android/app/src/main/AndroidManifest.xml:38:15-52
+61            <!--
+62                 Displays an Android View that continues showing the launch screen
+63                 Drawable until Flutter paints its first frame, then this splash
+64                 screen fades out. A splash screen is useful to avoid any visual
+65                 gap between the end of Android's launch screen and the painting of
+66                 Flutter's first frame.
+67            -->
+68            <meta-data
+68-->/Users/tolba/StudioProjects/flutter_maps/android/app/src/main/AndroidManifest.xml:45:13-48:17
+69                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+69-->/Users/tolba/StudioProjects/flutter_maps/android/app/src/main/AndroidManifest.xml:46:15-79
+70                android:resource="@drawable/launch_background" />
+70-->/Users/tolba/StudioProjects/flutter_maps/android/app/src/main/AndroidManifest.xml:47:15-61
+71
+72            <intent-filter>
+72-->/Users/tolba/StudioProjects/flutter_maps/android/app/src/main/AndroidManifest.xml:49:13-52:29
+73                <action android:name="android.intent.action.MAIN" />
+73-->/Users/tolba/StudioProjects/flutter_maps/android/app/src/main/AndroidManifest.xml:50:17-68
+73-->/Users/tolba/StudioProjects/flutter_maps/android/app/src/main/AndroidManifest.xml:50:25-66
+74
+75                <category android:name="android.intent.category.LAUNCHER" />
+75-->/Users/tolba/StudioProjects/flutter_maps/android/app/src/main/AndroidManifest.xml:51:17-76
+75-->/Users/tolba/StudioProjects/flutter_maps/android/app/src/main/AndroidManifest.xml:51:27-74
+76            </intent-filter>
+77        </activity>
+78        <!--
+79             Don't delete the meta-data below.
+80             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+81        -->
+82        <meta-data
+82-->/Users/tolba/StudioProjects/flutter_maps/android/app/src/main/AndroidManifest.xml:56:9-58:33
+83            android:name="flutterEmbedding"
+83-->/Users/tolba/StudioProjects/flutter_maps/android/app/src/main/AndroidManifest.xml:57:13-44
+84            android:value="2" />
+84-->/Users/tolba/StudioProjects/flutter_maps/android/app/src/main/AndroidManifest.xml:58:13-30
+85
+86        <service
+86-->[:firebase_auth] /Users/tolba/StudioProjects/flutter_maps/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+87            android:name="com.google.firebase.components.ComponentDiscoveryService"
+87-->[:firebase_auth] /Users/tolba/StudioProjects/flutter_maps/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:8:18-89
+88            android:directBootAware="true"
+88-->[com.google.firebase:firebase-common:20.0.0] /Users/tolba/.gradle/caches/transforms-2/files-2.1/4303f81154cde13901efa2a4e1548246/jetified-firebase-common-20.0.0/AndroidManifest.xml:35:13-43
+89            android:exported="false" >
+89-->[com.google.firebase:firebase-auth:21.0.1] /Users/tolba/.gradle/caches/transforms-2/files-2.1/df9660c93ac484df309b6870bdb79bb4/jetified-firebase-auth-21.0.1/AndroidManifest.xml:76:13-37
+90            <meta-data
+90-->[:firebase_auth] /Users/tolba/StudioProjects/flutter_maps/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+91                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
+91-->[:firebase_auth] /Users/tolba/StudioProjects/flutter_maps/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-124
+92                android:value="com.google.firebase.components.ComponentRegistrar" />
+92-->[:firebase_auth] /Users/tolba/StudioProjects/flutter_maps/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+93            <meta-data
+93-->[:firebase_core] /Users/tolba/StudioProjects/flutter_maps/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+94                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+94-->[:firebase_core] /Users/tolba/StudioProjects/flutter_maps/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-124
+95                android:value="com.google.firebase.components.ComponentRegistrar" />
+95-->[:firebase_core] /Users/tolba/StudioProjects/flutter_maps/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+96            <meta-data
+96-->[com.google.firebase:firebase-auth:21.0.1] /Users/tolba/.gradle/caches/transforms-2/files-2.1/df9660c93ac484df309b6870bdb79bb4/jetified-firebase-auth-21.0.1/AndroidManifest.xml:77:13-79:85
+97                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+97-->[com.google.firebase:firebase-auth:21.0.1] /Users/tolba/.gradle/caches/transforms-2/files-2.1/df9660c93ac484df309b6870bdb79bb4/jetified-firebase-auth-21.0.1/AndroidManifest.xml:78:17-109
+98                android:value="com.google.firebase.components.ComponentRegistrar" />
+98-->[com.google.firebase:firebase-auth:21.0.1] /Users/tolba/.gradle/caches/transforms-2/files-2.1/df9660c93ac484df309b6870bdb79bb4/jetified-firebase-auth-21.0.1/AndroidManifest.xml:79:17-82
+99        </service>
+100
+101        <activity
+101-->[:url_launcher] /Users/tolba/StudioProjects/flutter_maps/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-11:74
+102            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+102-->[:url_launcher] /Users/tolba/StudioProjects/flutter_maps/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-74
+103            android:exported="false"
+103-->[:url_launcher] /Users/tolba/StudioProjects/flutter_maps/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:10:13-37
+104            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+104-->[:url_launcher] /Users/tolba/StudioProjects/flutter_maps/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-71
+105        <activity
+105-->[com.google.firebase:firebase-auth:21.0.1] /Users/tolba/.gradle/caches/transforms-2/files-2.1/df9660c93ac484df309b6870bdb79bb4/jetified-firebase-auth-21.0.1/AndroidManifest.xml:27:9-44:20
+106            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+106-->[com.google.firebase:firebase-auth:21.0.1] /Users/tolba/.gradle/caches/transforms-2/files-2.1/df9660c93ac484df309b6870bdb79bb4/jetified-firebase-auth-21.0.1/AndroidManifest.xml:28:13-80
+107            android:excludeFromRecents="true"
+107-->[com.google.firebase:firebase-auth:21.0.1] /Users/tolba/.gradle/caches/transforms-2/files-2.1/df9660c93ac484df309b6870bdb79bb4/jetified-firebase-auth-21.0.1/AndroidManifest.xml:29:13-46
+108            android:exported="true"
+108-->[com.google.firebase:firebase-auth:21.0.1] /Users/tolba/.gradle/caches/transforms-2/files-2.1/df9660c93ac484df309b6870bdb79bb4/jetified-firebase-auth-21.0.1/AndroidManifest.xml:30:13-36
+109            android:launchMode="singleTask"
+109-->[com.google.firebase:firebase-auth:21.0.1] /Users/tolba/.gradle/caches/transforms-2/files-2.1/df9660c93ac484df309b6870bdb79bb4/jetified-firebase-auth-21.0.1/AndroidManifest.xml:31:13-44
+110            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+110-->[com.google.firebase:firebase-auth:21.0.1] /Users/tolba/.gradle/caches/transforms-2/files-2.1/df9660c93ac484df309b6870bdb79bb4/jetified-firebase-auth-21.0.1/AndroidManifest.xml:32:13-72
+111            <intent-filter>
+111-->[com.google.firebase:firebase-auth:21.0.1] /Users/tolba/.gradle/caches/transforms-2/files-2.1/df9660c93ac484df309b6870bdb79bb4/jetified-firebase-auth-21.0.1/AndroidManifest.xml:33:13-43:29
+112                <action android:name="android.intent.action.VIEW" />
+112-->/Users/tolba/StudioProjects/flutter_maps/android/app/src/main/AndroidManifest.xml:12:5-57
+112-->/Users/tolba/StudioProjects/flutter_maps/android/app/src/main/AndroidManifest.xml:12:13-54
+113
+114                <category android:name="android.intent.category.DEFAULT" />
+114-->[com.google.firebase:firebase-auth:21.0.1] /Users/tolba/.gradle/caches/transforms-2/files-2.1/df9660c93ac484df309b6870bdb79bb4/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:17-76
+114-->[com.google.firebase:firebase-auth:21.0.1] /Users/tolba/.gradle/caches/transforms-2/files-2.1/df9660c93ac484df309b6870bdb79bb4/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:27-73
+115                <category android:name="android.intent.category.BROWSABLE" />
+115-->[com.google.firebase:firebase-auth:21.0.1] /Users/tolba/.gradle/caches/transforms-2/files-2.1/df9660c93ac484df309b6870bdb79bb4/jetified-firebase-auth-21.0.1/AndroidManifest.xml:37:17-78
+115-->[com.google.firebase:firebase-auth:21.0.1] /Users/tolba/.gradle/caches/transforms-2/files-2.1/df9660c93ac484df309b6870bdb79bb4/jetified-firebase-auth-21.0.1/AndroidManifest.xml:37:27-75
+116
+117                <data
+117-->/Users/tolba/StudioProjects/flutter_maps/android/app/src/main/AndroidManifest.xml:13:5-36
+118                    android:host="firebase.auth"
+119                    android:path="/"
+120                    android:scheme="genericidp" />
+120-->/Users/tolba/StudioProjects/flutter_maps/android/app/src/main/AndroidManifest.xml:13:11-33
+121            </intent-filter>
+122        </activity>
+123        <activity
+123-->[com.google.firebase:firebase-auth:21.0.1] /Users/tolba/.gradle/caches/transforms-2/files-2.1/df9660c93ac484df309b6870bdb79bb4/jetified-firebase-auth-21.0.1/AndroidManifest.xml:45:9-62:20
+124            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+124-->[com.google.firebase:firebase-auth:21.0.1] /Users/tolba/.gradle/caches/transforms-2/files-2.1/df9660c93ac484df309b6870bdb79bb4/jetified-firebase-auth-21.0.1/AndroidManifest.xml:46:13-79
+125            android:excludeFromRecents="true"
+125-->[com.google.firebase:firebase-auth:21.0.1] /Users/tolba/.gradle/caches/transforms-2/files-2.1/df9660c93ac484df309b6870bdb79bb4/jetified-firebase-auth-21.0.1/AndroidManifest.xml:47:13-46
+126            android:exported="true"
+126-->[com.google.firebase:firebase-auth:21.0.1] /Users/tolba/.gradle/caches/transforms-2/files-2.1/df9660c93ac484df309b6870bdb79bb4/jetified-firebase-auth-21.0.1/AndroidManifest.xml:48:13-36
+127            android:launchMode="singleTask"
+127-->[com.google.firebase:firebase-auth:21.0.1] /Users/tolba/.gradle/caches/transforms-2/files-2.1/df9660c93ac484df309b6870bdb79bb4/jetified-firebase-auth-21.0.1/AndroidManifest.xml:49:13-44
+128            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+128-->[com.google.firebase:firebase-auth:21.0.1] /Users/tolba/.gradle/caches/transforms-2/files-2.1/df9660c93ac484df309b6870bdb79bb4/jetified-firebase-auth-21.0.1/AndroidManifest.xml:50:13-72
+129            <intent-filter>
+129-->[com.google.firebase:firebase-auth:21.0.1] /Users/tolba/.gradle/caches/transforms-2/files-2.1/df9660c93ac484df309b6870bdb79bb4/jetified-firebase-auth-21.0.1/AndroidManifest.xml:51:13-61:29
+130                <action android:name="android.intent.action.VIEW" />
+130-->/Users/tolba/StudioProjects/flutter_maps/android/app/src/main/AndroidManifest.xml:12:5-57
+130-->/Users/tolba/StudioProjects/flutter_maps/android/app/src/main/AndroidManifest.xml:12:13-54
+131
+132                <category android:name="android.intent.category.DEFAULT" />
+132-->[com.google.firebase:firebase-auth:21.0.1] /Users/tolba/.gradle/caches/transforms-2/files-2.1/df9660c93ac484df309b6870bdb79bb4/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:17-76
+132-->[com.google.firebase:firebase-auth:21.0.1] /Users/tolba/.gradle/caches/transforms-2/files-2.1/df9660c93ac484df309b6870bdb79bb4/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:27-73
+133                <category android:name="android.intent.category.BROWSABLE" />
+133-->[com.google.firebase:firebase-auth:21.0.1] /Users/tolba/.gradle/caches/transforms-2/files-2.1/df9660c93ac484df309b6870bdb79bb4/jetified-firebase-auth-21.0.1/AndroidManifest.xml:37:17-78
+133-->[com.google.firebase:firebase-auth:21.0.1] /Users/tolba/.gradle/caches/transforms-2/files-2.1/df9660c93ac484df309b6870bdb79bb4/jetified-firebase-auth-21.0.1/AndroidManifest.xml:37:27-75
+134
+135                <data
+135-->/Users/tolba/StudioProjects/flutter_maps/android/app/src/main/AndroidManifest.xml:13:5-36
+136                    android:host="firebase.auth"
+137                    android:path="/"
+138                    android:scheme="recaptcha" />
+138-->/Users/tolba/StudioProjects/flutter_maps/android/app/src/main/AndroidManifest.xml:13:11-33
+139            </intent-filter>
+140        </activity>
+141
+142        <service
+142-->[com.google.firebase:firebase-auth:21.0.1] /Users/tolba/.gradle/caches/transforms-2/files-2.1/df9660c93ac484df309b6870bdb79bb4/jetified-firebase-auth-21.0.1/AndroidManifest.xml:64:9-73:19
+143            android:name="com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService"
+143-->[com.google.firebase:firebase-auth:21.0.1] /Users/tolba/.gradle/caches/transforms-2/files-2.1/df9660c93ac484df309b6870bdb79bb4/jetified-firebase-auth-21.0.1/AndroidManifest.xml:65:13-101
+144            android:enabled="true"
+144-->[com.google.firebase:firebase-auth:21.0.1] /Users/tolba/.gradle/caches/transforms-2/files-2.1/df9660c93ac484df309b6870bdb79bb4/jetified-firebase-auth-21.0.1/AndroidManifest.xml:66:13-35
+145            android:exported="false" >
+145-->[com.google.firebase:firebase-auth:21.0.1] /Users/tolba/.gradle/caches/transforms-2/files-2.1/df9660c93ac484df309b6870bdb79bb4/jetified-firebase-auth-21.0.1/AndroidManifest.xml:67:13-37
+146            <intent-filter>
+146-->[com.google.firebase:firebase-auth:21.0.1] /Users/tolba/.gradle/caches/transforms-2/files-2.1/df9660c93ac484df309b6870bdb79bb4/jetified-firebase-auth-21.0.1/AndroidManifest.xml:68:13-72:29
+147                <action android:name="com.google.firebase.auth.api.gms.service.START" />
+147-->[com.google.firebase:firebase-auth:21.0.1] /Users/tolba/.gradle/caches/transforms-2/files-2.1/df9660c93ac484df309b6870bdb79bb4/jetified-firebase-auth-21.0.1/AndroidManifest.xml:69:17-89
+147-->[com.google.firebase:firebase-auth:21.0.1] /Users/tolba/.gradle/caches/transforms-2/files-2.1/df9660c93ac484df309b6870bdb79bb4/jetified-firebase-auth-21.0.1/AndroidManifest.xml:69:25-86
+148
+149                <category android:name="android.intent.category.DEFAULT" />
+149-->[com.google.firebase:firebase-auth:21.0.1] /Users/tolba/.gradle/caches/transforms-2/files-2.1/df9660c93ac484df309b6870bdb79bb4/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:17-76
+149-->[com.google.firebase:firebase-auth:21.0.1] /Users/tolba/.gradle/caches/transforms-2/files-2.1/df9660c93ac484df309b6870bdb79bb4/jetified-firebase-auth-21.0.1/AndroidManifest.xml:36:27-73
+150            </intent-filter>
+151        </service>
+152
+153        <provider
+153-->[com.google.firebase:firebase-common:20.0.0] /Users/tolba/.gradle/caches/transforms-2/files-2.1/4303f81154cde13901efa2a4e1548246/jetified-firebase-common-20.0.0/AndroidManifest.xml:26:9-31:39
+154            android:name="com.google.firebase.provider.FirebaseInitProvider"
+154-->[com.google.firebase:firebase-common:20.0.0] /Users/tolba/.gradle/caches/transforms-2/files-2.1/4303f81154cde13901efa2a4e1548246/jetified-firebase-common-20.0.0/AndroidManifest.xml:27:13-77
+155            android:authorities="com.example.flutter_maps.firebaseinitprovider"
+155-->[com.google.firebase:firebase-common:20.0.0] /Users/tolba/.gradle/caches/transforms-2/files-2.1/4303f81154cde13901efa2a4e1548246/jetified-firebase-common-20.0.0/AndroidManifest.xml:28:13-72
+156            android:directBootAware="true"
+156-->[com.google.firebase:firebase-common:20.0.0] /Users/tolba/.gradle/caches/transforms-2/files-2.1/4303f81154cde13901efa2a4e1548246/jetified-firebase-common-20.0.0/AndroidManifest.xml:29:13-43
+157            android:exported="false"
+157-->[com.google.firebase:firebase-common:20.0.0] /Users/tolba/.gradle/caches/transforms-2/files-2.1/4303f81154cde13901efa2a4e1548246/jetified-firebase-common-20.0.0/AndroidManifest.xml:30:13-37
+158            android:initOrder="100" /> <!-- Needs to be explicitly declared on P+ -->
+158-->[com.google.firebase:firebase-common:20.0.0] /Users/tolba/.gradle/caches/transforms-2/files-2.1/4303f81154cde13901efa2a4e1548246/jetified-firebase-common-20.0.0/AndroidManifest.xml:31:13-36
+159        <uses-library
+159-->[com.google.android.gms:play-services-maps:17.0.0] /Users/tolba/.gradle/caches/transforms-2/files-2.1/1605a598ba6ad662cecf47bf1b7c4cee/jetified-play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
+160            android:name="org.apache.http.legacy"
+160-->[com.google.android.gms:play-services-maps:17.0.0] /Users/tolba/.gradle/caches/transforms-2/files-2.1/1605a598ba6ad662cecf47bf1b7c4cee/jetified-play-services-maps-17.0.0/AndroidManifest.xml:34:13-50
+161            android:required="false" />
+161-->[com.google.android.gms:play-services-maps:17.0.0] /Users/tolba/.gradle/caches/transforms-2/files-2.1/1605a598ba6ad662cecf47bf1b7c4cee/jetified-play-services-maps-17.0.0/AndroidManifest.xml:35:13-37
+162
+163        <activity
+163-->[com.google.android.gms:play-services-base:17.1.0] /Users/tolba/.gradle/caches/transforms-2/files-2.1/90a5b4cb2fd9ac819652dcd9e531b5b9/jetified-play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
+164            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+164-->[com.google.android.gms:play-services-base:17.1.0] /Users/tolba/.gradle/caches/transforms-2/files-2.1/90a5b4cb2fd9ac819652dcd9e531b5b9/jetified-play-services-base-17.1.0/AndroidManifest.xml:24:13-79
+165            android:exported="false"
+165-->[com.google.android.gms:play-services-base:17.1.0] /Users/tolba/.gradle/caches/transforms-2/files-2.1/90a5b4cb2fd9ac819652dcd9e531b5b9/jetified-play-services-base-17.1.0/AndroidManifest.xml:25:13-37
+166            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+166-->[com.google.android.gms:play-services-base:17.1.0] /Users/tolba/.gradle/caches/transforms-2/files-2.1/90a5b4cb2fd9ac819652dcd9e531b5b9/jetified-play-services-base-17.1.0/AndroidManifest.xml:26:13-72
+167
+168        <meta-data
+168-->[com.google.android.gms:play-services-basement:17.1.0] /Users/tolba/.gradle/caches/transforms-2/files-2.1/dcaec673d11c8e2dd5451c3f35f9dd5f/jetified-play-services-basement-17.1.0/AndroidManifest.xml:23:9-25:69
+169            android:name="com.google.android.gms.version"
+169-->[com.google.android.gms:play-services-basement:17.1.0] /Users/tolba/.gradle/caches/transforms-2/files-2.1/dcaec673d11c8e2dd5451c3f35f9dd5f/jetified-play-services-basement-17.1.0/AndroidManifest.xml:24:13-58
+170            android:value="@integer/google_play_services_version" />
+170-->[com.google.android.gms:play-services-basement:17.1.0] /Users/tolba/.gradle/caches/transforms-2/files-2.1/dcaec673d11c8e2dd5451c3f35f9dd5f/jetified-play-services-basement-17.1.0/AndroidManifest.xml:25:13-66
+171    </application>
+172
+173</manifest>
